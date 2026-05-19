@@ -1,31 +1,46 @@
-# Diabetes Prediction using Machine Learning
+# CodeAlpha - Diabetes Prediction using Machine Learning
 
 ## Overview
-This project predicts whether a person has diabetes based on medical data using Machine Learning.
+This project is developed as part of the CodeAlpha Machine Learning Internship.  
+It predicts whether a person is likely to have diabetes based on medical diagnostic data using Machine Learning techniques.
 
 ## Objective
-To build a classification model that predicts diabetes using health parameters like glucose, BMI, age, and blood pressure.
+To build a classification model that predicts diabetes using health parameters such as glucose level, BMI, age, blood pressure, and other medical features.
 
 ## Dataset
-Pima Indians Diabetes Dataset
+Pima Indians Diabetes Dataset  
+Source: UCI Machine Learning Repository / Kaggle
 
 ## Model Used
 Random Forest Classifier
 
 ## Workflow
-- Data preprocessing  
+- Data loading and preprocessing  
+- Exploratory Data Analysis (EDA)  
 - Train-test split  
-- Feature scaling  
-- Model training  
-- Prediction and evaluation  
+- Feature scaling using StandardScaler  
+- Model training using Random Forest  
+- Model evaluation  
+- Prediction on new data  
 
-## Evaluation
-- Accuracy Score  
+## Evaluation Metrics
+- Accuracy Score (~72%)  
 - Confusion Matrix  
-- Classification Report  
+- Classification Report (Precision, Recall, F1-score)  
 
-## Tools Used
-Python, Pandas, NumPy, Scikit-learn, Matplotlib, Jupyter Notebook
+## Tools & Libraries Used
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Matplotlib  
+- Jupyter Notebook  
 
 ## Result
-The model predicts diabetes with good accuracy.
+The trained model successfully predicts diabetes risk based on input medical parameters with reasonable accuracy.
+
+## Author
+Yarva Soujanya
+
+## Note
+This is a beginner-level Machine Learning project demonstrating end-to-end workflow from data preprocessing to model evaluation.
